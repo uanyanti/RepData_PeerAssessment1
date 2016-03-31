@@ -7,7 +7,7 @@ output:
 
 
 ## Loading and preprocessing the data
-data <- read.table(unz("activity.zip", "activity.csv"), header=T, quote="\"", sep=",")
+activity <- read.table(unz("activity.zip", "activity.csv"), header=T, quote="\"", sep=",")
 str(data)
 
 
